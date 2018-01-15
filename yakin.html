@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Desain Website Jual Kostum</title>
+	<link rel="stylesheet" href="style.css" media="screen">
+
+</head>
+<body background = "gb/bg.jpg">
+	<h1><center><p style="color:red";>Mohon Konfirmasi Pesanan Dengan Format di Bawah Ini:</p></center></h1>
+<hr>
+   <form action ="proses_input.php" method="get">
+   <table width="30%" align="center" cellspacing="1" cellpadding="5">
+   <tr>
+    <td><p style="color:black">Nama Pembeli</p></td>	<td>:</td> <td><input type="text" name="Nama" size="10px" maxlength="20"></td>
+	</tr>
+    <tr>
+	<td><p style="color:black">Alamat Rumah</p></td>	<td>:</td> <td><input type="text" name="alamat_rumah" size="40px"></td>
+	</tr>
+    <tr>
+	<td><p style="color:black">Email</p></td> 			<td>:</td> <td><input type="text" name="email"></td>
+	</tr>
+    <tr>
+	<td><p style="color:black">No.Telepon</p></td>		<td>:</td> <td><input type="text" name="nomor_telepon"></td>
+	</tr>
+	<tr>
+	<td><p style="color:black">Nama Barang</p></td> 	<td>:</td> <td><input type="text" name="NamaBarang" size="11px" maxlength="20"></td>
+	</tr>
+	<tr>
+    <td><p style="color:black">Jumlah Barang</p></td>	<td>:</td> <td><input type="text" name="JumlahBarang" size="40px"></td>
+	</tr>
+	 <tr>
+            <td><p style="color:black">Cara Pembayaran</p></td>
+            <td>:</td>
+            <td>
+                <p style="color:black"><input type="radio" name="capem" value="Tunai">Tunai<br>
+                <p style="color:black"><input type="radio" name="capem" value="COD">COD<br>
+                <p style="color:black"><input type="radio" name="capem" value="Transfer">Transfer<br>
+            </td>
+        </tr>
+	<tr>
+	<td><p id="answer"></p></td>
+     <td colspan="4"><input type="button" onclick='document.getElementById("answer").innerHTML="Terima Kasih Atas Pesanan Anda"'value="OK!"></input>
+		<input type="reset" value="RESET">
+	 </td>
+	</tr>
+	 </table>
+  </form>
+				
+
+	<br><ul class="art-hmenu"><li><a href="awal.html" class="active">Back Home</a></li></brs>
+		
+		<tr>
+		<img alt="" width="200" src="gb/emtc.gif" height="200">
+		<img alt="" width="200" src="gb/emtc.gif" height="200">
+		<img alt="" width="200" src="gb/emtc.gif" height="200">
+		<img alt="" width="200" src="gb/emtc.gif" height="200">
+		</tr>
+</body>
+</html>
